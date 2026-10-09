@@ -1,0 +1,22 @@
+{
+  "name": "reloop",
+  "version": "1.0.0",
+  "description": "ReLoop - Find it. Sell it. Reuse it. Full-stack MVP",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build",
+    "test:api": "node server/test-api.js"
+  },
+  "keywords": [
+    "reloop",
+    "lost-and-found",
+    "marketplace",
+    "mern",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
+}
