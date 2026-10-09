@@ -163,7 +163,7 @@ export default function AdminPage() {
                       Associated Listing Details:
                     </div>
                     <div><strong>Title:</strong> {listing.title}</div>
-                    <div><strong>Price:</strong> ${Number(listing.price || 0).toFixed(2)}</div>
+                    <div><strong>Price:</strong> ₹{Number(listing.price || 0).toLocaleString('en-IN')}</div>
                     <div><strong>Category:</strong> {listing.category}</div>
                     <div><strong>Status:</strong> {listing.status}</div>
                     {listing.sellerContact && <div><strong>Seller Contact:</strong> {listing.sellerContact}</div>}

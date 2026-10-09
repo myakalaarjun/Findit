@@ -183,7 +183,7 @@ export default function MyPostsPage() {
                     </span>
                     <span className="tag-highlight">{l.category}</span>
                     <span style={{ fontWeight: '700', color: 'var(--color-muted-blue)' }}>
-                      ${Number(l.price).toFixed(2)}
+                      ₹{Number(l.price).toLocaleString('en-IN')}
                     </span>
                   </div>
                   <h4 style={{ color: 'var(--color-deep-navy)' }}>{l.title}</h4>

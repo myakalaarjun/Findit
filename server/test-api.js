@@ -64,7 +64,7 @@ async function testApi() {
     body: JSON.stringify({
       title: 'Vintage Solid Oak Desk',
       description: 'Sturdy oak writing desk with 3 pull-out drawers. Excellent condition.',
-      price: 85,
+      price: 2500,
       category: 'Furniture & Home',
       condition: 'Good Condition',
       location: 'Downtown Center',
@@ -82,7 +82,7 @@ async function testApi() {
     body: JSON.stringify({
       title: 'Trek Mountain Bicycle 21-Speed',
       description: 'Well-maintained mountain bike, recent tune-up with disc brakes.',
-      price: 160,
+      price: 8500,
       category: 'Bicycles & Transport',
       condition: 'Like New',
       location: 'Northside Park',

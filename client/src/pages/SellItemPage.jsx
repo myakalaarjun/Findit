@@ -116,16 +116,16 @@ export default function SellItemPage() {
           <div className="form-row">
             <div className="form-group">
               <label htmlFor="price">
-                Price ($ USD) <span className="required">*</span>
+                Price (₹ INR) <span className="required">*</span>
               </label>
               <input
                 id="price"
                 name="price"
                 type="number"
-                step="0.01"
+                step="1"
                 min="0"
                 className="form-control"
-                placeholder="0.00"
+                placeholder="e.g. 1500"
                 value={formData.price}
                 onChange={handleChange}
               />

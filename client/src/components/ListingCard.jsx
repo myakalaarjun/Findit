@@ -6,9 +6,9 @@ export default function ListingCard({ listing, onReport }) {
   const isRemoved = listing.status === 'removed';
 
   const formatPrice = (val) => {
-    return Number(val).toLocaleString(undefined, {
+    return Number(val).toLocaleString('en-IN', {
       style: 'currency',
-      currency: 'USD',
+      currency: 'INR',
       maximumFractionDigits: 2,
     });
   };

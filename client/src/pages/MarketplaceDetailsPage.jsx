@@ -165,7 +165,7 @@ export default function MarketplaceDetailsPage() {
               </h1>
 
               <div style={{ fontSize: '1.75rem', fontWeight: '800', color: 'var(--color-muted-blue)', marginBottom: '1.25rem' }}>
-                ${Number(listing.price).toFixed(2)}
+                ₹{Number(listing.price).toLocaleString('en-IN')}
               </div>
 
               <div className="detail-meta-grid">
@@ -284,10 +284,10 @@ export default function MarketplaceDetailsPage() {
 
               <div className="form-row">
                 <div className="form-group">
-                  <label>Price ($ USD)</label>
+                  <label>Price (₹ INR)</label>
                   <input
                     type="number"
-                    step="0.01"
+                    step="1"
                     min="0"
                     className="form-control"
                     value={editForm.price}
