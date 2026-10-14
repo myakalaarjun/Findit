@@ -3,16 +3,16 @@ import { NavLink, Link } from 'react-router-dom';
 
 export default function Navbar() {
   const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem('reloop-theme') === 'dark';
+    return (localStorage.getItem('findit-theme') || localStorage.getItem('reloop-theme')) === 'dark';
   });
 
   useEffect(() => {
     if (darkMode) {
       document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('reloop-theme', 'dark');
+      localStorage.setItem('findit-theme', 'dark');
     } else {
       document.documentElement.setAttribute('data-theme', 'light');
-      localStorage.setItem('reloop-theme', 'light');
+      localStorage.setItem('findit-theme', 'light');
     }
   }, [darkMode]);
 
@@ -27,7 +27,7 @@ export default function Navbar() {
       </div>
       <div className="header-inner">
         <Link to="/" className="brand-link">
-          <span className="brand-title">ReLoop</span>
+          <span className="brand-title">FindIt</span>
           <span className="brand-tagline">Find it. Sell it. Reuse it.</span>
         </Link>
 

@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-section">
-          <h4>ReLoop</h4>
+          <h4>FindIt</h4>
           <p>
             <strong>Find it. Sell it. Reuse it.</strong>
           </p>
@@ -50,7 +50,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        &copy; {new Date().getFullYear()} ReLoop. Built for sustainable reuse. Local Development Prototype (Authentication Later).
+        &copy; {new Date().getFullYear()} FindIt. Built for sustainable reuse. Local Development Prototype (Authentication Later).
       </div>
     </footer>
   );

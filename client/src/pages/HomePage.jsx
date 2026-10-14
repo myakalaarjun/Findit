@@ -44,7 +44,7 @@ export default function HomePage() {
       }}>
         <div style={{ maxWidth: '780px', margin: '0 auto' }}>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', color: 'var(--color-warm-cream)', marginBottom: '0.75rem' }}>
-            ReLoop
+            FindIt
           </h1>
           <p style={{ fontSize: '1.25rem', fontWeight: '500', color: '#cfd7eb', marginBottom: '1rem' }}>
             Find it. Sell it. Reuse it.
@@ -66,7 +66,7 @@ export default function HomePage() {
       {/* How it Works */}
       <section style={{ marginBottom: '3rem' }}>
         <div className="page-header" style={{ textAlign: 'center' }}>
-          <h2 className="page-title">How ReLoop Works</h2>
+          <h2 className="page-title">How FindIt Works</h2>
           <p className="page-subtitle">Simple, straightforward community exchange</p>
         </div>
         <div style={{

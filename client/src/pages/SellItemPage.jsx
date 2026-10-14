@@ -88,7 +88,7 @@ export default function SellItemPage() {
     <div style={{ maxWidth: '640px', margin: '0 auto' }}>
       <div className="page-header" style={{ textAlign: 'center' }}>
         <h1 className="page-title">Sell an Item</h1>
-        <p className="page-subtitle">List your pre-loved goods for reuse on the ReLoop marketplace</p>
+        <p className="page-subtitle">List your pre-loved goods for reuse on the FindIt marketplace</p>
       </div>
 
       <div className="form-card">
