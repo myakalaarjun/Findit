@@ -1,4 +1,4 @@
-# ReLoop
+# FindIt
 
 **Tagline:** Find it. Sell it. Reuse it.  
 **Purpose:** A unified community platform where users can report lost and found items and list quality used goods for reuse.
@@ -35,9 +35,9 @@ The application strictly implements the specified brand palette:
 ## 3. Pages & Routes
 
 1. **Home Page (`/`)**
-   - Hero banner with ReLoop tagline and mission
+   - Hero banner with FindIt tagline and mission
    - Quick action buttons ("Report an Item", "Explore Marketplace")
-   - "How ReLoop Works" process walkthrough
+   - "How FindIt Works" process walkthrough
    - Recent Lost & Found reports feed
    - Recent Marketplace listings feed
    - Empty state handling when no records exist
@@ -124,7 +124,7 @@ The application strictly implements the specified brand palette:
 The server expects environment variables in `server/.env`:
 ```env
 PORT=5000
-MONGODB_URI=mongodb://127.0.0.1:27017/reloop
+MONGODB_URI=mongodb://127.0.0.1:27017/FindIt
 NODE_ENV=development
 ```
 
